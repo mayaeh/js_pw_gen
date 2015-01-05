@@ -5,7 +5,18 @@ function pw_create () {
 	// https://www.softel.co.jp/blogs/tech/archives/3787
 	// http://www.hanano-ya.jp/javascript/1347
 
-	var length = 8
+
+	var length = '' ;
+
+	if ($("#createLength").val().length > 0) {
+		if ($("#createLength").val().match(/^[0-9]+$/i) ) {
+			length = $("#createLength").val() ;
+		}
+	}
+	else {
+		length = 8 ;
+	}
+
 
 	var baseStrings = 'abcdefghijkmnopqrstuvwxyz' ;
 
