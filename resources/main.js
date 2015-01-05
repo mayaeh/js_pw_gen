@@ -1,5 +1,10 @@
 function pw_create () {
 
+	// special thanks :
+	// http://qiita.com/suin/items/23ba4a487425bbad90c8
+	// https://www.softel.co.jp/blogs/tech/archives/3787
+	// http://www.hanano-ya.jp/javascript/1347
+
 	var length = 8
 
 	var baseStrings = 'abcdefghijkmnopqrstuvwxyz' ;
