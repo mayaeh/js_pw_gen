@@ -40,3 +40,13 @@ function pw_create () {
 
 
 }
+
+function optionClick() {
+	$("#optionForm").toggle('fast');
+	if ($("#optionLabel").html() == "オプション▽" ) {
+		$("#optionLabel").html("オプション△") ;
+	}
+	else {
+		$("#optionLabel").html("オプション▽") ;
+	}
+}
