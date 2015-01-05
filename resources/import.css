@@ -47,8 +47,11 @@ div#mainContainer form input {
 
 #gotText {
 	font-size: large;
-	margin-top: 20px;
 	width: 80%;
+}
+
+#optionLabel {
+	font-size: small;
 }
 
 div#footerContainer {
