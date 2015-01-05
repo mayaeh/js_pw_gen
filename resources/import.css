@@ -1,0 +1,67 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(250, 240, 139, 0.46);}
+h1 {
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+p {
+	margin: 0px;
+	padding: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+div#headerContainer {
+	text-align: center;
+}
+
+div#mainContainer {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+div#mainContainer form {
+	display: inline-block;
+	padding: 10px;
+	
+	border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+	border-style: none;
+	background-color: #fbfbfb;
+}
+
+div#mainContainer form input {
+	padding: 5px;
+}
+
+#gotText {
+	font-size: large;
+	margin-top: 20px;
+	width: 80%;
+}
+
+div#footerContainer {
+	text-align: center;
+}
+
+div#footerContainer ul {
+/*	display: inline;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+div#footerContainer ul li {
+	display: inline;
+	font-size: small;
+}
