@@ -1,11 +1,24 @@
 function pw_create () {
 
 	var length = 8
-	var rNum = Math.random() * Math.random() ;
 
-	var pw = rNum.toString(36).slice(-length);
+	var baseStrings = 'abcdefghijkmnopqrstuvwxyz' ;
 
-	$("#gotText").val(pw) ;
+	baseStrings += 'ABCDEFGHIJKLMNPQRSTUVWXYZ' ;
+	baseStrings += '1234567890' ;
+
+	var rStrings = '' ;
+
+
+	var baseLength = baseStrings.length ;
+
+	for (var i=0; i < length; i++) {
+		rStrings += baseStrings.charAt 
+			(Math.floor (Math.random () * baseLength) ) ;
+	}
+
+
+	$("#gotText").val(rStrings) ;
 
 	$("#gotText").select();
 
