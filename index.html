@@ -15,18 +15,16 @@
 	</div>
 	<div id="mainContainer">
 		<form action="" id="mainForm">
-			<p>
 			<input type="text" name="gotText" id="gotText" readonly />
 			<br />
-			<input type="button" value="生成" onclick="pw_create();" />
-			<input type="reset" value="リセット" />
+			<input type="button" value="生成" class="formButton" onclick="pw_create();" />
+			<input type="reset" class="formButton" value="リセット" />
 			<br />
 			<span id="optionLabel" onclick="optionClick();">オプション▽</span>
 			<div id="optionForm" class="hide">
 				<label for="createLength">生成桁数 :</label>
 				<input type="text" name="createLength" id="createLength" size="3" maxlength="2" />
-				</div>
-			</p>
+			</div>
 		</form>
 	</div>
 	<div id="footerContainer">
