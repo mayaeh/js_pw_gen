@@ -1,6 +1,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
 }
 body {
 	margin: 0px;
@@ -10,10 +11,7 @@ h1 {
 	margin: 0px;
 	padding-top: 20px;
 	padding-bottom: 10px;
-}
-p {
-	margin: 0px;
-	padding: 5px;
+	width: 100%;
 }
 
 .hide {
@@ -28,6 +26,7 @@ div#mainContainer {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 50px;
+	width: 100%;
 }
 
 div#mainContainer form {
@@ -39,19 +38,44 @@ div#mainContainer form {
 	-moz-border-radius: 10px;	/* Firefox用 */
 	border-style: none;
 	background-color: #fbfbfb;
+	width: 60%;
 }
 
 div#mainContainer form input {
-	padding: 5px;
+/*	padding: 5px;
+	margin-bottom: 10px;*/
 }
 
-#gotText {
+input#gotText {
 	font-size: large;
-	width: 80%;
+	text-align: center;
+	width: 70%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+input#createLength {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 50px;
+}
+
+input.formButton {
+	font-size: x-large;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 #optionLabel {
 	font-size: small;
+}
+
+#optionForm {
+	padding-top: 10px;
+}
+
+#optionForm label {
 }
 
 div#footerContainer {
