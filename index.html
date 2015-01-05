@@ -10,14 +10,24 @@
 	<title>パスワード生成器</title>
 </head>
 <body>
+	<div id="headerContainer">
+		<h1>パスワード生成器</h1>
+	</div>
 	<div id="mainContainer">
 		<form action="" id="mainForm">
 			<p>
-			<input type="text" name="createLength" id="createLength" />
-			<input type="button" onclick="pw_create();" />
+			<label for="createLength">生成桁数 :</label>
+			<input type="text" name="createLength" id="createLength" size="3" maxlength="2" />
+			<input type="button" value="生成" onclick="pw_create();" />
+			<input type="reset" value="リセット" />
 			<input type="text" name="gotText" id="gotText" readonly />
 			</p>
 		</form>
+	</div>
+	<div id="footerContainer">
+		<ul>
+			<li>&copy; 2015 marimo-net</li>
+		</ul>
 	</div>
 </body>
 </html>
