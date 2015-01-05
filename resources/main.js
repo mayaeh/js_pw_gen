@@ -20,7 +20,7 @@ function pw_create () {
 
 	var baseStrings = 'abcdefghijkmnopqrstuvwxyz' ;
 
-	baseStrings += 'ABCDEFGHIJKLMNPQRSTUVWXYZ' ;
+	baseStrings += 'ABCDEFGHJKLMNPQRSTUVWXYZ' ;
 	baseStrings += '1234567890' ;
 
 	var rStrings = '' ;
